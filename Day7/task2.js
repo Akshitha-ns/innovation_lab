@@ -13,3 +13,8 @@ const person1 = new Person('Arun', 23);
 const person2 = new Person('Sunitha',24);
 person1.greet(); 
 person2.greet(); 
+
+
+
+const greetMethod = person1.greet;
+greetMethod(); 
